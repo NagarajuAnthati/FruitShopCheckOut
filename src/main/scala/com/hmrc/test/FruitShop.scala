@@ -1,5 +1,9 @@
 package com.hmrc.test
 
+<<<<<<< HEAD
+=======
+package com.test
+>>>>>>> 7a1c39c519248f271c08ca0c001086f53812abcc
 
 /*
  * Simple Checkout System 
@@ -67,12 +71,18 @@ object FruitShop {
   
   println("invalid items:"+invalid_Items)
   
+<<<<<<< HEAD
    println("Price before Discount :"+ showPrice(apple_Count)(orange_Count)+"pp")
   
   println(" ----applying discount------------")
   
   println("Please pay price (after discount):"+new ApplyDiscount(apple_Count,orange_Count).price+"pp")
   
+=======
+  println("Price :"+ showPrice(apple_Count)(orange_Count)+"pp")
+  
+ 
+>>>>>>> 7a1c39c519248f271c08ca0c001086f53812abcc
   }
  
   def showPrice(i1:Int)(i2:Int):Double={
@@ -82,4 +92,8 @@ object FruitShop {
   }
  
   
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7a1c39c519248f271c08ca0c001086f53812abcc
